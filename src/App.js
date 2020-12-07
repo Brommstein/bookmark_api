@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from './Header';
+import Body from './Body'
+import Footer from './Footer';
 
-function App() {
+function App(){
   return (
-    <main className='App'>
-      {/* content goes here */}
-    </main>
+    <div className="App">
+      <Header />
+      <Body />
+      <Footer />
+    </div>
   );
 }
 
